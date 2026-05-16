@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+results_dgbrec/
+.DS_Store
+.idea/
+.vscode/
