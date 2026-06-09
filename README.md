@@ -33,7 +33,7 @@ DGBRec/
 Place two pickled scipy sparse matrices in the dataset directory:
 
 ```text
-Datasets/sparse_amazon/
+Datasets/sparse_gowalla/
 ├── trnMat.pkl
 └── tstMat.pkl
 ```
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ## Run DGBRec with the best default configuration
 
 ```bash
-python main.py --dataset_dir ./Datasets/sparse_amazon --result_dir ./results_dgbrec
+python main.py --dataset_dir ./Datasets/sparse_gowalla --result_dir ./results_dgbrec
 ```
 
 You can also run:
@@ -64,7 +64,7 @@ The full best configuration is in `main.py`. These command-line arguments only o
 
 ```bash
 python main.py \
-  --dataset_dir ./Datasets/sparse_amazon \
+  --dataset_dir ./Datasets/sparse_gowalla \
   --result_dir ./results_dgbrec \
   --epochs 400 \
   --patience 30 \
