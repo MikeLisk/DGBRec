@@ -1,7 +1,5 @@
 # DGBRec
 
-DGBRec is a modular single-run implementation for recommendation experiments. This repository keeps the best default configuration for one standard training and evaluation pipeline.
-
 The default experiment parameters are defined directly in `main.py` inside `DGBRecConfig`, as requested. The remaining modules only implement data processing, model components, evaluation, and training.
 
 ## Project structure
