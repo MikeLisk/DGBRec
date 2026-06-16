@@ -38,22 +38,11 @@ Datasets/sparse_gowalla/
 
 Both matrices should have shape `[num_users, num_items]`. Rows represent users and columns represent items.
 
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Run DGBRec with the best default configuration
 
 ```bash
 python main.py --dataset_dir ./Datasets/sparse_gowalla --result_dir ./results_dgbrec
-```
-
-You can also run:
-
-```bash
-bash scripts/run_dgbrec.sh
 ```
 
 ## Output files
