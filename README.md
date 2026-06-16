@@ -7,9 +7,6 @@ The default experiment parameters are defined directly in `main.py` inside `DGBR
 ```text
 DGBRec/
 ├── main.py                         # experiment parameters and single-run entry
-├── requirements.txt
-├── scripts/
-│   └── run_dgbrec.sh
 └── dgbrec/
     ├── data/
     │   └── data_helper.py          # data loading, graph construction, negative sampling
