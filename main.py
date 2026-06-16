@@ -34,7 +34,7 @@ class DGBRecConfig:
     # Experiment settings
     seed: int = 2025
     seeds: List[int] = field(default_factory=lambda: [2025])
-    dataset_dir: str = "./Datasets/sparse_amazon"
+    dataset_dir: str = "./Datasets/sparse_gowalla"
     result_dir: str = "./results_dgbrec"
     device: torch.device = field(default_factory=lambda: torch.device("cuda" if torch.cuda.is_available() else "cpu"))
     cudnn_benchmark: bool = True
